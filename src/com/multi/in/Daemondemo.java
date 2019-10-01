@@ -12,6 +12,8 @@ public class Daemondemo extends Thread {
 		System.out.println(d.isDaemon());
 		d.start();
 		d.setDaemon(true);   //java.lang.IllegalThreadStateException
+		
+		System.out.println("my commit");
 	}
 	
 }
